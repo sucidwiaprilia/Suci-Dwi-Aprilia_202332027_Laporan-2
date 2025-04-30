@@ -1,0 +1,50 @@
+h1 { 
+    /* Mengatur huruf pada elemen h1 agar normal dan berukuran 18px */
+    font-weight: normal;
+    font-size: 18px;
+}
+
+h2.nama {
+    /* Memberi latar belakang biru dan teks kuning untuk elemen h2 yang punya kelas 'nama' */
+    /* Ukuran font diperbesar dan dibuat tebal */
+    background-color: blue;
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#nim {
+    /* Mengatur elemen dengan id 'nim' supaya tampil dengan teks biru, ukuran besar, dan tebal */
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+span.nama {
+    /* Elemen span dengan kelas 'nama' diberi latar biru dan teks putih */
+    /* Teks dibuat miring dan ada jarak padding di dalamnya */
+    background-color: blue;
+    color: white;
+    font-style: italic;
+    padding: 2px 4px;
+}
+
+.teks2 span {
+    /* Span di dalam elemen yang punya kelas 'teks2' diberi latar kuning dan teks miring */
+    /* Tambahan padding agar tampilannya lebih rapi */
+    background-color: yellow;
+    font-style: italic;
+    padding: 2px 4px;
+}
+
+p {
+    /* Seluruh paragraf diratakan ke tengah */
+    text-align: center;
+}
+
+h3 a {
+    /* Link di dalam h3 diatur agar berukuran 20px, warnanya hitam, dan tidak bergaris bawah */
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
